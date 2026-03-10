@@ -1,0 +1,6 @@
+# Copy to .htaccess in your cPanel domain root (or API subdomain root).
+# Requires mod_proxy and mod_proxy_http. Change 8000 if your app uses another port.
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ http://127.0.0.1:8000/$1 [P,L]

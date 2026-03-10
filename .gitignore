@@ -1,0 +1,22 @@
+# Secrets and env (never commit)
+.env
+.env.local
+*.local
+backend/.env
+backend/*-firebase-adminsdk-*.json
+backend/firebase-service-account.json
+
+# Python
+backend/venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# OS and IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db

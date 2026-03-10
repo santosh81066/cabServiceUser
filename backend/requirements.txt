@@ -1,0 +1,12 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic[email]==2.10.3
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+python-multipart==0.0.17
+firebase-admin>=6.0.0
+
+# Optional: for sending real OTP SMS (install if you use that provider)
+# twilio          # global SMS (set TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER)
+# python-gammu    # free & open source: USB GSM modem + SIM (set GAMMU_DEVICE e.g. /dev/ttyUSB0)
+# no extra deps   # MSG91 uses stdlib urllib (set MSG91_AUTH_KEY)

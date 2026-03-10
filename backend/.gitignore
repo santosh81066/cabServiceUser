@@ -1,0 +1,21 @@
+# Env and secrets (never commit)
+.env
+.env.local
+*.local
+
+# Firebase service account key (keep locally only)
+firebase-service-account.json
+*-firebase-adminsdk-*.json
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
