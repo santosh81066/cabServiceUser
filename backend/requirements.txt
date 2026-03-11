@@ -1,9 +1,10 @@
-fastapi==0.115.6
-uvicorn[standard]==0.32.1
-pydantic[email]==2.10.3
-pydantic-settings==2.6.1
-python-dotenv==1.0.1
-python-multipart==0.0.17
+fastapi>=0.68.0
+uvicorn[standard]>=0.15.0
+pydantic>=2.0.0
+email-validator>=1.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.5
 firebase-admin>=6.0.0
 
 # Optional: for sending real OTP SMS (install if you use that provider)
