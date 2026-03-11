@@ -4,7 +4,7 @@ pydantic>=1.8.0,<2.0.0
 email-validator>=1.0.0
 python-dotenv>=0.10.0
 python-multipart>=0.0.5
-firebase-admin>=6.0.0
+firebase-admin>=5.0.0
 
 # Optional: for sending real OTP SMS (install if you use that provider)
 # twilio          # global SMS (set TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_PHONE_NUMBER)
